@@ -100,10 +100,11 @@ button{
   color: #fff;
   font-size: medium;
   transition: background-color 350ms ease;
+  
 }
 
 button:hover {
-  background-color: #555;
+  background-color: red;
 }
 
 footer{
