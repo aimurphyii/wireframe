@@ -11,7 +11,8 @@ header{
 
  header img{
   float:left;
-  margin-left: 7%;
+  margin-left: 5%;
+  margin-top: 21px;
 }
 
 a {
@@ -29,9 +30,14 @@ a:visited{
   color: #888;
 }
 
+header ul{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-li{
+header li{
   display: inline;
+  padding-left: 5%;
 }
 
 main{
@@ -44,25 +50,47 @@ main{
 main img{
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
-section{
-  height: 400px;
-  margin: 10px;
+main li{
+  display: inline;
 }
+
+#banner2{
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+/* section{
+  margin: 10px;
+} */
 
 section img{
   float: left;
 }
-h2{
-  padding-top: 10px;
-}
-section p{
-  height: 380px;
-  overflow: scroll;
 
+h2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 45%;
+}
+
+p{
+  height: 330px;
+  width: 450px;
+  overflow: scroll;
+  font-size: medium;
+  margin-left: 45%;
+}
+
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 3%;
+  margin-top: 15px;
+  margin-bottom: 2%;
 }
 
 footer{
