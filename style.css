@@ -11,7 +11,7 @@ header{
 
  header img{
   float:left;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 21px;
 }
 
@@ -22,8 +22,11 @@ a {
 
 a:hover{
   color: #888;
-  text-decoration: overline;
-  background-color: #000;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom:50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a:visited{
@@ -42,13 +45,12 @@ header li{
 
 main{
   background-color: #fff;
-  width:90%;
-  padding-left: 5%;
+  padding-left: 10%;
   color: #555;
 }
 
 main img{
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 1px;
   margin-right: 1px;
@@ -72,25 +74,36 @@ section img{
 }
 
 h2{
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
-  margin-left: 45%;
+  margin-left: 515px;
+  font-size: larger;
 }
 
 p{
-  height: 330px;
+  height: 310px;
   width: 450px;
   overflow: scroll;
   font-size: medium;
-  margin-left: 45%;
+  margin-left: 515px;
 }
 
 button{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 3%;
   margin-top: 15px;
   margin-bottom: 2%;
+  background: #000;
+  color: #fff;
+  font-size: medium;
+  transition: background-color 350ms ease;
+}
+
+button:hover {
+  background-color: #555;
 }
 
 footer{
